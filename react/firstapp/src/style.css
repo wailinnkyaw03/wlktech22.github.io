@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+}
+.name{
+    text-transform: uppercase;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.navbar div{
+    margin-right: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
